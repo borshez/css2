@@ -1,0 +1,30 @@
+span,
+div {
+    border: 1px solid red;
+    /*margin: 10px;*/
+    /*padding: 10px;*/
+    margin: 10px 20px;
+    /*padding: 10px 20px 30px 40px;*/
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+
+.test {
+    display: inline;
+}
+
+.mar {
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+span {
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    box-sizing: content-box;
+}
