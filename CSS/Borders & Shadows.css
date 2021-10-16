@@ -1,0 +1,40 @@
+.example {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    margin: 20px;
+
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: red; */
+
+    border: red 10px  solid;
+
+    border-right: none;
+    border-right-style: none;
+
+    border-bottom-width: 20px;
+    border-left-color: blue;
+}
+
+.example {
+    outline: 10px solid aqua;
+}
+
+button:focus;
+input:focus {
+    outline: 2px solid aqua;
+}
+
+.shadow {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    margin: 20px;
+
+    box-shadow: 1px 2px 5px blue inset, inset 1px 2px 5px green;
+}
+
+h1 {
+    text-shadow: 1px 2px 5px red, -1px -2px 5px aqua;
+}

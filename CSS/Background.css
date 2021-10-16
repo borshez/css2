@@ -1,0 +1,24 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+
+    /* background-color: gainsboro; */
+    /* background-image: url('https://posta-magazine.ru/wp-content/uploads/2020/09/main_sounds-of-the-forest_posta-magazine.jpg'); */
+    /* background-size: 300px 150px; */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: no-repeat; */
+    /* background-position: 50% 50%; */
+    /* background-attachment: fixed;*/
+    /* background: gainsboro */
+    /* url('https://posta-magazine.ru/wp-content/uploads/2020/09/main_sounds-of-the-forest_posta-magazine.jpg') */
+    /* 50% 50% no-repeat fixed; */
+
+    background: url(https://i.pinimg.com/originals/5e/8a/86/5e8a862e456a581fc0aeacf64fd3f062.jpg)
+    center no-repeat,
+    url(https://posta-magazine.ru/wp-content/uploads/2020/09/main_sounds-of-the-forest_posta-magazine.jpg);
+}
